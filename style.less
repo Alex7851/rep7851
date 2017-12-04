@@ -1,0 +1,209 @@
+
+@color1: #515154; //#162EE0
+@colorForActive: #1B8FF2;
+@colorForFont: #000269;
+
+
+
+.clrr {
+	
+	color: red;
+	padding: auto 0;
+	font-size: 20px;
+	animation: color_change 15s linear alternate infinite;
+}
+
+// ______________________________________________________________________________
+
+html {
+	background: white;
+}
+body {
+	
+	margin: 0 auto;
+	padding-top: -30px;
+	width: 80%;
+	background: #EEFDEF;
+	border: 2px solid #C1C1C1;
+	border-top: none;
+	height: 150vh;
+	padding: 5px;
+	padding-top: 0;
+}
+
+.main	{
+	// margin-top: 50px;
+
+
+}
+
+	// Стили для главного меню
+// ______________________________________________________________________________	
+.menuwrapper {
+background-image: url('img/selva2.jpg');
+	font-family: Arial;
+	display: inline-block;
+// float: right;
+	// background: #CFFCD3;
+	height: 37px;
+	margin-bottom:  20px;
+	margin-left: -5px;
+
+	padding:20px 5px  70px;
+	font-size: 0;
+
+	width: 100%;
+	position: relative;
+	top: 0;
+	
+	// border: 2px solid darkblue;
+	
+	ul {
+		margin: 0;
+		
+		
+		li {
+			font-size: 15px;
+			float: right;
+			display: inline-block;
+			list-style-type: none;
+			width: 120px;
+			padding: 9px;
+			// color: darken(@colorForFont, 5%) ;
+			text-align: center;
+			background: rgba(0,210,12,0.8) ;
+			opacity: 30%;
+				&:hover {
+					background: #27C70D;
+					color: white;
+					cursor: pointer;
+				}
+				a {
+					display: inline-block;
+					text-decoration: none;	
+				}
+		}
+
+		.menuitem {
+			border: 1px solid @colorForFont;
+			border-radius: 5px;
+		}
+		.hide {
+			display: none;
+		}
+
+
+		.active {
+			background: @colorForActive;
+			color: @colorForFont;
+			&:hover {
+
+				background: @colorForActive;
+				font-size: 15px;
+			}
+		}
+
+			
+	}
+
+	.auth { 
+				float: right;
+			font-size: 15px;
+			display: inline-block;
+			padding: 7px;
+			color: #FEE7FF;
+			background: lighten(@color1, 20%);
+			border-radius: 7px;
+			margin-right: 5px;
+			border: 2px solid lighten(@color1, 30%);
+			position: fixed;
+			right: 0;
+			top: 2px;
+			
+			
+			&:hover {
+				color: #FDC734
+			}
+
+			a {
+				text-decoration: none;
+				color: #3EFEEE;
+			}
+
+	}
+
+	.logged {
+		&:hover {
+				color: #FEE7FF;	
+				cursor: default;
+			}
+	}
+
+	
+
+} 
+
+
+@media (max-width:729px) {
+	
+	.menuwrapper {
+		
+		.hide {
+			display: inline-block;
+			font-size: 15px;
+			padding: 8px;
+			position: relative;
+			width: 120px;
+			text-align: center;
+			color: white;
+			background: lighten(@color1, 5%);
+			border-radius: 5px;
+			border: 2px solid lighten(@color1, 30%);
+
+			.active {
+					font-size: 16px;
+
+					&:hover {
+					font-size: 16px;
+					height: 19px;
+					}
+			
+
+			}
+
+			&:hover .menuitem {
+				
+				display: list-item;
+				border-radius: 0;
+				border-top: 1px solid lighten(@color1, 30%);
+
+				.menuitem:nth-child(4) {
+					border-bottom: 1px solid lighten(@color1, 30%);
+				}
+				
+				&:hover {
+					padding-top: 8px;
+					padding-bottom: 9px;
+
+				}	
+				
+			}
+
+			ul {
+				margin-top: 9px;
+				position: absolute;	
+				left: -2px;
+				padding: 0;
+				background: @color1;
+				box-sizing: border-box;
+			}
+		}
+
+		ul {
+			li {
+				display: none;
+			}
+		}
+	}
+}
+
