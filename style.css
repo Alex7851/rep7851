@@ -94,7 +94,37 @@ body {
   color: #fee7ff;
   cursor: default;
 }
-@media (max-width: 729px) {
+.footer {
+  background: #dedede;
+  padding: 30px;
+  font-family: Arial;
+  position: relative;
+}
+.footer .ulstile {
+  text-align: center;
+  padding: 0;
+  font-size: 0;
+}
+.footer .ulstile .listyle {
+  font-size: 15px;
+  width: 23%;
+  display: inline-block;
+  border: 2px solid white;
+  border-right: none;
+  height: 120px;
+  padding: 5px;
+  padding-top: 20px;
+}
+.footer .ulstile .listyle a {
+  color: #331d8f;
+  display: inline-block;
+  padding-bottom: 5px;
+  text-decoration: none;
+}
+.listyle .footer .ulstile:nth-child(1) {
+  border-right: 2px solid red;
+}
+@media (max-width: 1100px) {
   .menuwrapper .hide {
     display: inline-block;
     font-size: 15px;
@@ -103,9 +133,10 @@ body {
     width: 120px;
     text-align: center;
     color: white;
-    background: #5e5e61;
+    background: #27c70d;
     border-radius: 5px;
     border: 2px solid #9d9da1;
+    float: right;
   }
   .menuwrapper .hide .active {
     font-size: 16px;
@@ -136,5 +167,8 @@ body {
   }
   .menuwrapper ul li {
     display: none;
+  }
+  .footer .ulstile .listyle {
+    width: 70%;
   }
 }
