@@ -106,11 +106,10 @@ body {
   font-size: 0;
 }
 .footer .ulstile .listyle {
-  font-size: 15px;
+  font-size: 12px;
   width: 23%;
   display: inline-block;
   border: 2px solid white;
-  border-right: none;
   height: 120px;
   padding: 5px;
   padding-top: 20px;
@@ -120,9 +119,6 @@ body {
   display: inline-block;
   padding-bottom: 5px;
   text-decoration: none;
-}
-.listyle .footer .ulstile:nth-child(1) {
-  border-right: 2px solid red;
 }
 @media (max-width: 1100px) {
   .menuwrapper .hide {

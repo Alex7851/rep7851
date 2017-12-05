@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.20, created on 2017-12-04 22:14:54
+<?php /* Smarty version 2.6.20, created on 2017-12-05 06:59:04
          compiled from footer.tpl */ ?>
 <body>
 	<div class="footer">
@@ -8,7 +8,7 @@
 ?>
 			<li class="listyle">
 				<a href=""><?php echo $this->_tpl_vars['itm']['fi']; ?>
-</a><br>
+</a><br><br>
 				<a href=""><?php echo $this->_tpl_vars['itm']['si']; ?>
 </a><br>
 				<a href=""><?php echo $this->_tpl_vars['itm']['ti']; ?>
