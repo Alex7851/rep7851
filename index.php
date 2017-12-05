@@ -8,7 +8,6 @@
 	<title>Document</title>
 </head>
 <body>
-
 	<?php	get_header();?>
 
 <div class="container">
@@ -28,10 +27,10 @@
 							$post_display_option = get_theme_mod('post_display_option','post-excerpt');
 
 							if($post_display_option == 'post-excerpt'){
-								get_template_part( 'template-parts/content','page');
+								get_template_part( 'content','page');
 							}
 							else{
-								get_template_part( 'template-parts/content','page');
+								get_template_part( 'content','page');
 							}
 
 							?>

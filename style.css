@@ -4,6 +4,18 @@ Author: alx
 Version:1.0
 Text Domain: wptest
 */
+
+.ttle{
+display: inline-block;
+float:left;
+font-family: 'Century Schoolbook', lato, 'helvetica neue', helvetica, arial, verdana;
+color:white;
+font-size: 50px;
+overflow:hidden;
+margin:5px;
+margin-left: 30px;}
+
+
 .clrr {
   color: red;
   padding: auto 0;
@@ -24,7 +36,7 @@ body {
   padding-top: 0;
 }
 .menuwrapper {
-  background-image: url('img/selva2.jpg');
+  background-image: url('img/selva.jpg');
   font-family: Arial;
   display: inline-block;
   height: 37px;
@@ -41,7 +53,7 @@ body {
 }
 .menuwrapper ul li {
   font-size: 15px;
-  float: right;
+   color: #0E2DCB; float: right;
   display: inline-block;
   list-style-type: none;
   width: 120px;
@@ -992,7 +1004,7 @@ img.wp-post-image {
     width: 100%;
     word-wrap: break-word;
     overflow: hidden;
-padding: 5px
+padding: 5px 5px 0px 5px
 }
 
 .post-feed-wrapper a.comments-link {

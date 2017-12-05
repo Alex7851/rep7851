@@ -1,9 +1,9 @@
-<?php /* Smarty version 2.6.20, created on 2017-12-04 20:02:05
+<?php /* Smarty version 2.6.20, created on 2017-12-05 20:03:32
          compiled from header.tpl */ ?>
 
 <body>
 	<div class="menuwrapper">
-
+<p class="ttle">СЕЛЬВА</p>
 
 	<li class="hide">
 
