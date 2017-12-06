@@ -9,11 +9,23 @@ Text Domain: wptest
 display: inline-block;
 float:left;
 font-family: 'Century Schoolbook', lato, 'helvetica neue', helvetica, arial, verdana;
-color:white;
+color:white	;
 font-size: 50px;
 overflow:hidden;
 margin:5px;
 margin-left: 30px;}
+.ttl{
+display: inline-block;
+float:right;
+font-family: 'Century Schoolbook', arial, verdana;
+color:white;
+font-size: 20px;
+overflow:hidden;
+margin:5px;
+
+position: absolute;
+top:90px;
+right:0px}
 
 
 .clrr {
@@ -138,7 +150,7 @@ body {
   text-decoration: none;
 }
 @media (max-width: 1100px) {
-  .menuwrapper .hide {
+ .ttl{display:none} .menuwrapper .hide {
     display: inline-block;
     font-size: 15px;
     padding: 8px;
