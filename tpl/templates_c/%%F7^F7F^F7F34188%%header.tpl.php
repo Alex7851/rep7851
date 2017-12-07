@@ -1,10 +1,10 @@
-<?php /* Smarty version 2.6.20, created on 2017-12-06 06:04:39
+<?php /* Smarty version 2.6.20, created on 2017-12-07 11:30:36
          compiled from header.tpl */ ?>
 
 <body>
 	<div class="menuwrapper">
 		<p class="ttl clr">Этот сайт посвящен "легким" нашей планеты, 
-		 без которой жизнь человечества невозможна</p>
+		 без которых жизнь человечества невозможна</p>
 		<p class="ttle">СЕЛЬВА</p>
 		
 		<li class="hide">
