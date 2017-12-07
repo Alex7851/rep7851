@@ -1,6 +1,15 @@
-<?php /* Smarty version 2.6.20, created on 2017-12-07 11:30:36
+<?php /* Smarty version 2.6.20, created on 2017-12-07 12:58:03
          compiled from header.tpl */ ?>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="<?php echo $this->_tpl_vars['cssPath']; ?>
+">
+	<title>Document</title>
+</head>
 <body>
 	<div class="menuwrapper">
 		<p class="ttl clr">Этот сайт посвящен "легким" нашей планеты, 
