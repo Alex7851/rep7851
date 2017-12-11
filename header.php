@@ -4,12 +4,10 @@
 
 	include "smarty_library/smartyinit.php";
 
-
 	$cssPath= get_bloginfo('stylesheet_url');
-
 	$arr['menuTitles']= array( "Флора", "Фауна", "О сельве",'Главная');
+	
 	$smarty->assign('menuTitles', $arr['menuTitles']);
-	$smarty->assign('mainText', $text);
 	$smarty->assign('cssPath', $cssPath);
 
 	$smarty->display('header.tpl');?>
